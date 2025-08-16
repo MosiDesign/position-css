@@ -5,11 +5,17 @@
 }
 
 body{
-    height: 100vh;
+    height: 100%;
     background-color: rgb(35, 155, 192);
 }
 
+main{
+    position: relative;
+}
+
 div{
+    width: 100%;
+    height: auto;
     padding: 15px;
 }
 
@@ -18,9 +24,6 @@ div{
     height: 250px;
     background-color: #fff;
     border-radius: 16px;
-    position: relative;
-    top: 50%;
-    left: 40%;
 }
 
 .h1-padding{
